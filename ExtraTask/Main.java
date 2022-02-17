@@ -1,4 +1,6 @@
-import chromosome.*;
+import chromosome.AverageEvaluator;
+import chromosome.Chromosome;
+import chromosome.Pool;
 import problems.SubsetSum;
 
 import java.util.Arrays;
