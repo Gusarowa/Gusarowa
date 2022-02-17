@@ -1,4 +1,5 @@
 import chromosome.*;
+import problems.SubsetSum;
 
 import java.util.Arrays;
 
@@ -73,8 +74,15 @@ public class Main {
         }
     }
 
+    public static void task3() {
+        SubsetSum ss = new SubsetSum(10);
+        System.out.println(Arrays.toString(ss.solve(10)));
+        System.out.println(Arrays.toString(ss.getWeights()));
+    }
+
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
 }
